@@ -1,4 +1,4 @@
-# Persona; finance calculator
+# Personal finance calculator
 
 monthly_income = int(input("Enter your monthly income: "))
 
