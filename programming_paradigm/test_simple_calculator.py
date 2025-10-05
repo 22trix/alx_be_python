@@ -27,7 +27,7 @@ class TestSimpleCalculator(unittest.TestCase):
         self.assertAlmostEqual(self.calc.multiply(2.5, 2), 5.0)
 
     # --- Required: test_divide ---
-    def test_divide(self):
+    def test_division(self):
         self.assertEqual(self.calc.divide(10, 5), 2)
         self.assertAlmostEqual(self.calc.divide(7, 2), 3.5)
         self.assertEqual(self.calc.divide(-9, -3), 3)
